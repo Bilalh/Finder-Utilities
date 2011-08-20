@@ -3,12 +3,23 @@ on run
 	tell application "Finder"
 		set file_list to the selection
 		repeat with f in file_list
+			set dup to duplicate f
+			
+			set n to the name of f
+			set ext to the name extension of f
+			
+			if ext is not "" then
+				set ext to "." & ext
+				set AppleScript's text item delimiters to ext
+				set new_name to (text items 1 thru ((the count of (every text item of n)) - 1) of n) as text
+			else
+				set new_name to n
+			end if
 			
 			set AppleScript's text item delimiters to ""
-			set new_name to (format_date(the current date) of me)
+			set new_name to new_name & " " & (format_date(the current date) of me) & ext
 			
-			
-			set the name of f to new_name
+			set the name of dup to new_name
 		end repeat
 	end tell
 end run
