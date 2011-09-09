@@ -32,16 +32,20 @@ Set the label using colour names/numbers
 
 Prerequisites
 -------------
-Mac OS X
+* Mac OS X
 
 Install 
 -------
 * Put the scripts in your `$PATH`
 
-Options
--------
-
-
 Issues
 ------
 None Yet
+
+Licence
+-------
+[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/ "Full details")
+
+Authors
+-------
+* Bilal Hussain
