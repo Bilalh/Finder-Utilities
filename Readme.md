@@ -1,6 +1,6 @@
 Finder Utilities {#readmeTitle}
 ================
-Set of scripts for controling Finder, inculdes get the path of the selected Finder item, setting labels, timestamps files a script for mac that goes to the location of the frontmost Finder window in the Terminal.
+Set of scripts for controlling Finder, includes get the path of the selected Finder item, setting labels, timestamps files a script for mac that goes to the location of the frontmost Finder window in the Terminal.
 {#description}
 
 Usage
